@@ -13,6 +13,8 @@ font-family: 'Roboto', sans-serif;
 color: #212121;
 }
 
+/* header */
+
 a.title-style {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -28,6 +30,8 @@ a.title-style {
 span.web-title-style {
     color: #2196F3;
 }
+
+/* menu nav */
 
 .menu-nav {
     font-family: 'Roboto', sans-serif;
@@ -63,6 +67,8 @@ nav a, ul a:hover,
 nav a, ul a:focus {
     color: #2196F3;
 }
+
+/* main */
 
 .main-header {
     font-family: 'Roboto', sans-serif;
@@ -159,27 +165,7 @@ h2 {
     color: #757575;
 }
 
-.projects h3 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    /* identical to box height, or 200% */
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-
-.projects p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    letter-spacing: 0.03em;
-    color: #757575;
-}
+/* portfolio */
 
 .filter-buttons button{
     font-family: 'Roboto', sans-serif;
@@ -202,6 +188,30 @@ h2 {
     background-color: #2196F3;
     color: #ffffff;
 }
+
+.projects h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.projects p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* footer */
 
 .footer-contact {
     font-family: 'Roboto', sans-serif;
