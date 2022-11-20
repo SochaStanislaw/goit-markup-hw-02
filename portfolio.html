@@ -16,23 +16,19 @@
   <body>
     <header>
       <div>
-        <p>
-          <a href="index.html"><span>Web</span>Studio</a>
-        </p>
-        <nav>
+        <a class="title-style" href="index.html"
+          ><span class="web-title-style">Web</span>Studio</a
+        >
+        <nav class="menu-nav">
           <ul>
-            <li>
-              <a href=""><span>Agencja</span></a>
-            </li>
+            <li><a href="#">Agencja</a></li>
             <li><a href="/portfolio.html">Portfolio</a></li>
-            <li><a href="">Kontakt</a></li>
+            <li><a href="#">Kontakt</a></li>
           </ul>
         </nav>
-        <ul>
+        <ul class="menu-contacts">
           <li>
-            <a href="mailto:info@devstudio.com">
-              <span>info@devstudio.com</span>
-            </a>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
             <a href="tel:+48111111111">+48 111 111 111</a>
@@ -42,7 +38,7 @@
     </header>
     <main>
       <section>
-        <ul>
+        <ul class="filter-buttons">
           <li>
             <button type="button">Wszystkie</button>
           </li>
@@ -61,7 +57,7 @@
         </ul>
       </section>
       <section>
-        <ul>
+        <ul class="projects">
           <li>
             <img
               src="./images/projects/projects_1.jpg"
@@ -165,24 +161,29 @@
       </section>
     </main>
     <footer>
-      <p>
-        <a href="index.html">
-          <b><span>Web</span>Studio</b>
-        </a>
-      </p>
-      <address>
+      <a class="title-style" href="index.html"
+        ><span class="web-title-style">Web</span>Studio</a
+      >
+      <address class="footer-contact">
         <ul>
           <li>
-            <b
-              ><a
-                href="https://www.google.pl/maps/place/al.+Jerozolimskie+21,+00-508+Warszawa/@52.2305319,21.013843,480m/data=!3m2!1e3!4b1!4m5!3m4!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!8m2!3d52.2305286!4d21.0160317"
-                target="_blank"
-                >Warszawa, Aleje Jerozolimskie 21</a
-              ></b
+            <a
+              class="footer-contact city"
+              href="https://www.google.pl/maps/place/al.+Jerozolimskie+21,+00-508+Warszawa/@52.2305319,21.013843,480m/data=!3m2!1e3!4b1!4m5!3m4!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!8m2!3d52.2305286!4d21.0160317"
+              target="_blank"
+              >Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a href="mailto:info@example.com.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="footer-contacts mail" href="mailto:info@example.com.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="footer-contact phone-number" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
