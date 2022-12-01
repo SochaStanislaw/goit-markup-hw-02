@@ -1,16 +1,17 @@
 :root {
-    --background-color: #FFFFFF
-    --main-font: 'Roboto'
-    --second-font: 'Raleway'
-    /* --description-font-weight: 400 */
-    --description-font-size: 
-     
+    --background-color: #FFFFFF;
+    --main-card-background-color: #2F303A;
+    --ourteam-background-color: #F5F4FA;
+    --main-font: 'Roboto', 'Raleway', sans-serif;
+    --second-font: 'Raleway', sans-serif;
+    --nav-font-color: #212121;
+    --nav-contact-font-color: #757575;
+    --headers-font-color: #212121;
+    --paragraph-font-color: #757575;
 }
 
 body {
-font-family: 'Roboto', 'Raleway', sans-serif;
-color: #212121;
-font-size: ;
+font-family: var(--main-font)
 background-color: var(--background-color);
 }
 
@@ -42,7 +43,7 @@ span.web-title-style {
     line-height: 1.14;
     /* line-height: 16px; */
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--nav-font-color);
     cursor: pointer;
     list-style-type: none;
 }
@@ -60,7 +61,7 @@ span.web-title-style {
     line-height: 1.14;
     /* line-height: 16px; */
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--nav-contact-font-color);
     cursor: pointer;
     list-style-type: none;
 }
@@ -73,7 +74,7 @@ span.web-title-style {
 /* main */
 /* section-no-1: main card color */
 .section-no-1 {
-    background-color: #2F303A;
+    background-color: var(--main-card-background-color);
 }
 
 .main-card {
@@ -129,7 +130,7 @@ button:hover {
     /* line-height: 16px; */
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--headers-font-color);
 }
 
 .lorem-ipsum p {
@@ -138,7 +139,7 @@ button:hover {
     /* line-height: 24px; */
     /* or 171% */
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--paragraph-font-color);
 }
 
 /* section-no-3: "czym się zajmujemy" */
@@ -151,7 +152,7 @@ button:hover {
     /* line-height: 42px; */
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--headers-font-color);
 }
 
 .section-no-3 ul {
@@ -160,7 +161,7 @@ button:hover {
 
 /* section-no-4: "Nasz zespół" */
 .section-no-4 {
-    background-color: #F5F4FA;
+    background-color: var(--ourteam-background-color);
 }
 
 .section-no-4 ul {
@@ -177,7 +178,7 @@ button:hover {
     /* identical to box height */
     /* text-align: center; */
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--headers-font-color);
 }
 
 .section-no-4 p {
@@ -189,7 +190,7 @@ button:hover {
     /* identical to box height */
     /* text-align: center; */
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--paragraph-font-color);
 }
 
 /* hover&focus - all lists*/
@@ -242,7 +243,7 @@ nav a, ul a:focus {
     /* line-height: 36px; */
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--headers-font-color);
 }
 
 .portfolio-section-no-2 p {
@@ -253,7 +254,7 @@ nav a, ul a:focus {
     /* line-height: 30px; */
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--paragraph-font-color);
 }
 
 /* footer */
