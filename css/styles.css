@@ -1,17 +1,23 @@
 :root {
     --background-color: #ffffff
+    --main-font: 'Roboto'
+    --second-font: 'Raleway'
+    --description-font-weight: 400
+    --description-font-size: 
+     
 }
 
 body {
-background-color: var(--background-color);
-font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', 'Raleway', sans-serif;
 color: #212121;
+font-size: ;
+background-color: var(--background-color);
 }
 
 /* header */
-
-a.title-style {
-    font-family: 'Raleway', sans-serif;
+/* nazwa strony */
+a.header-title-style {
+    font-family: 'Raleway', 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -22,12 +28,12 @@ a.title-style {
     cursor: pointer;
 }
 
+/* "WEB" dot. header i footer */
 span.web-title-style {
     color: #2196F3;
 }
 
-/* menu nav */
-
+/* menu navigation */
 .menu-nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -36,6 +42,7 @@ span.web-title-style {
     letter-spacing: 0.02em;
     color: #212121;
     cursor: pointer;
+    list-style-type: none;
 }
 
 .menu-nav a {
@@ -43,14 +50,16 @@ span.web-title-style {
     text-decoration: none;
 }
 
+/* menu nawigacja kontakt */
 .menu-contacts {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: #757575;
     cursor: pointer;
+    list-style-type: none;
 }
 
 .menu-contacts a {
@@ -58,12 +67,11 @@ span.web-title-style {
     text-decoration: none;
 }
 
-nav a, ul a:hover,
-nav a, ul a:focus {
-    color: #2196F3;
-}
-
 /* main */
+/* section-no-1: main card color */
+.section-no-1 {
+    background-color: #2F303A;
+}
 
 .main-header {
     font-family: 'Roboto', sans-serif;
@@ -76,9 +84,8 @@ nav a, ul a:focus {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #2F303A;
 }
-
+/* button "zamów usługę */
 button.order-button {
     width: 200px;
     height: 50px;
@@ -104,9 +111,13 @@ button:focus {
     color: #2196F3;
 }*/
 
-.lorem-ipsum h3 {
+/* section-no-2: Lorem ipsum */
+.lorem-ipsum {
+    list-style-type: none;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+}
+
+.lorem-ipsum h3 {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -116,8 +127,6 @@ button:focus {
 }
 
 .lorem-ipsum p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -126,7 +135,8 @@ button:focus {
     color: #757575;
 }
 
-h2 {
+/* section-no-3: "czym się zajmujemy" */
+.section-no-3 h2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -137,7 +147,20 @@ h2 {
     color: #212121;
 }
 
-.our-team h3 {
+.section-no-3 ul {
+    list-style-type: none;
+}
+
+/* section-no-4: "Nasz zespół" */
+.section-no-4 {
+    background-color: #F5F4FA;
+}
+
+.section-no-4 ul {
+    list-style-type: none;
+}
+
+.section-no-4 h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -149,7 +172,7 @@ h2 {
     color: #212121;
 }
 
-.our-team p {
+.section-no-4 p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -161,9 +184,20 @@ h2 {
     color: #757575;
 }
 
+/* hover&focus - all lists*/
+nav a, ul a:hover,
+nav a, ul a:focus {
+    color: #2196F3;
+}
+/* ---------------------------------------------- */
 /* portfolio */
+/* portfolio-section-no-1 */
+.portfolio-section-no-1 ul {
+    list-style-type: none;
+}
 
-.filter-buttons button{
+/* filters buttons */
+.portfolio-section-no-1 button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -178,14 +212,19 @@ h2 {
     background-color: #F5F4FA;
     border-radius: 4px;
 }
-
-.filter-buttons button:hover,
-.filter-buttons button:focus {
+/* buttton' hover&focus */
+.portfolio-section-no-1 button:hover,
+.portfolio-section-no-1 button:focus {
     background-color: #2196F3;
     color: #ffffff;
 }
 
-.projects h4 {
+/* portfolio-section-no-4 */
+.portfolio-section-no-2 ul {
+    list-style-type: none;
+}
+
+.portfolio-section-no-2 h4 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -196,7 +235,7 @@ h2 {
     color: #212121;
 }
 
-.projects p {
+.portfolio-section-no-2 p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -208,10 +247,9 @@ h2 {
 }
 
 /* footer */
-
 .footer-contact {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    color: #ffffff60;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -221,10 +259,27 @@ h2 {
     background-color: #2F303A;
 }
 
-.city {
-    color: #ffffff;
+/* title webstudio - footer */
+.footer-title-style {
+    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
+/* address - footer*/
 .mail, .phone-number {
     color: #ffffff60;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.city {
+    color: #ffffff;
+    font-style: normal;
 }
