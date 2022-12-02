@@ -18,7 +18,7 @@ background-color: var(--background-color);
 /* header */
 /* nazwa strony */
 a.header-title-style {
-    font-family: 'Raleway', 'Roboto', sans-serif;
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
